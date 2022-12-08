@@ -1,0 +1,26 @@
+.container {
+  max-width: 1000px;
+  margin-inline: auto;
+}
+.btn {
+  cursor: pointer;
+  border: 1px solid #333;
+  background: #333;
+  border-radius: 4px;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  font: 600 1rem/1 'arial';
+  padding: 15px 30px;
+   transition: 0.3s ease;
+}
+.btn:hover {
+  background: #fcfcfc;
+    color: #333;
+}
+.bg {
+  padding: 20px;
+  background: #fcfcfc;
+  box-shadow: 0 1px 1px 0px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  margin-bottom: 40px;
+}

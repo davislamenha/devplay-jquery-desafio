@@ -1,0 +1,75 @@
+
+
+.form-desc {
+  font: 600 1.2rem/1.2 'arial';
+  text-align: center;
+  margin-bottom: 20px;
+
+}
+form {
+  display: grid;
+  padding: 20px;
+  gap: 5px;
+}
+form label {
+  font: 600 1.2rem/1.2 'arial';
+}
+form input {
+  border-radius: 4px;
+  border: 1px solid #dcdcdc;
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  font: 400 1.2rem/1.2 'arial';
+}
+form input:focus {
+  outline: none;
+  border: 1px solid #333;
+  box-shadow: 1px 1px 2px 1px  rgba(0, 0, 0, 0.1);
+}
+
+.andress-container {
+margin-top: 20px;
+display: none;
+gap: 10px;
+}
+
+
+.andress-container p {
+  font: 600 1.2rem/1.2 'arial';
+  margin-bottom: 5px;
+}
+.andress-container input {
+  display: block;
+  margin-bottom: 10px;
+}
+.andress-input {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 5px 40px;
+  align-items: flex-start;
+
+}
+.andress-input label, .andress-container p:nth-child(4){
+  margin-top: 10px;
+}
+
+
+form button {
+  margin-top: 20px;
+  justify-self: flex-start;
+
+}
+.invalid {
+  border: 1px solid #810;
+  box-shadow: 1px 1px 2px 1px  rgba(255, 0, 0, 0.3);
+}
+.invalid-msg {
+  display: none;
+  font: 400 1rem/1 'arial';
+margin-bottom: 10px;
+
+}
+.valid {
+  border: 1px solid #892;
+  box-shadow: 1px 1px 2px 1px  rgba(0, 255, 0, 0.3);
+}

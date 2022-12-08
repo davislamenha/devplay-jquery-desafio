@@ -1,0 +1,25 @@
+.table {
+  display: none;
+  margin-inline: 40px;
+}
+.table .btn {
+margin-bottom: 20px;
+}
+table {
+    width: 100%;
+}
+th, tr {
+
+    text-align: center;
+}
+th {
+  padding: 5px 10px;
+  background: #dcdcdc;
+}
+td {
+  background: #ececec;
+  padding: 5px;
+}
+.remover, .editar {
+  cursor: pointer;
+}
